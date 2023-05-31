@@ -15,4 +15,15 @@ public:
 	}
 };
 
+class manusia {
+public:
+	string jenisKelamin;
 
+	manusia(string pjenisKelamin) :
+		jenisKelamin(pjenisKelamin) {
+		cout << "manusia dibuat\n" << endl;
+	}
+	~manusia() {
+		cout << "manusia dihapus\n" << endl;
+	}
+};
